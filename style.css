@@ -1,155 +1,134 @@
-@media (min-width: 280px) and (max-width: 426px) {
-    #navigation .col-md-4 {
-        text-align: left;
-        font-size: 35px;
+@media screen and (max-width: 767px){
+
+    body {
+        font-family: Courier, monospace;
+        font-size: 20px;
+        color: rgb(#FFF);
+        background-color: #9DE0D7;
+        font-weight: bold;
     }
 
-    .osnov {
-        display: flex;
-        flex: 1 1 auto;
-        flex-direction: column;
+    #container {
+        color: rgb(#FFF);
+        font-size: 14px;
+
+
+    }
+
+    a {
+        color: #2f5687;
+        color: rgb(220, 220, 220);
+        transition: text-decoration 0, 5s ease-in;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    #navigation .col-md-4 {
+        font-size: 35px;
     }
 
     .osnov, nav {
         font-size: 35px;
     }
 
-    nav {
-        padding: 0 0 0;
-    }
-
     header {
-        width: 960px;
         font-size: 50px;
+        height: 150px;
     }
 
-    .header-container img {
-        width: 30vw;
-        height: 30vw;
+    #header-container p {
+        font-family: Courier, monospace;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 4px;
     }
 
-    footer {
-        width: 960px;
+    table tr:nth-child(2n) {
+        background-color: #FDFDFD;
     }
 
-    #tbl {
-        display: flex;
-        flex-direction: column;
+    table tr:nth-child(2n+1) {
+        background-color: #91B3FB;
     }
 
-    .form {
-        order: 1;
-    }
-
-    .table {
-        order: 2;
+    header, #navigation, #container, .table, #form1, footer {
+        background-color: #2f5687;
+        border-width: thick;
+        border-style: double;
+        border-color: white;
+        border-image: initial;
     }
 }
-@media (min-width: 1000px){
+
+@media (min-width: 1000px) {
+    .body {
+        margin: 0;
+    }
+
     #navigation .col-md-4 {
-        text-align: center;
         font-size: 35px;
+
+
     }
 
-    nav{
-        padding: 0px 30px 5px;
-    }
     header {
         font-size: 50px;
+        height: 150px;
     }
-}
 
-header {
-    height: 150px;
-}
-#header-container {
-    height: 150px;
-    max-width: 960px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0px auto;
+    #header-container p {
+        font-family: Courier, monospace;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 4px;
+    }
 
-}
-#header-container p {
-    font-family: Courier, monospace;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 4px;
-}
+    #topnav ul li {
+        font-size: 40px;
+    }
 
-#topnav {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 0 5px;
-}
+    #topnav nav ul {
+        list-style: none;
+    }
 
-#topnav ul li {
-    padding: 0px 50px 5px;
-    font-size: 40px;
-}
-#topnav nav ul {
-    list-style: none;
-}
-body {
-    font-family: Courier, monospace;
-    font-size: 20px;
-    color: rgb(#FFF);
-    background-color: #9DE0D7;
-    font-weight: bold;
-}
-#container {
-    width: 955px;
-    color: rgb(#FFF);
-    margin: 20px auto;
-    padding: 0px 5px;
-    font-size: 14px;
+    body {
+        font-family: Courier, monospace;
+        font-size: 20px;
+        color: rgb(#FFF);
+        background-color: #9DE0D7;
+        font-weight: bold;
+    }
 
-}
-#container img{
-    width: 50px;
-    height: 50px;
-}
-.table {
-    padding: 0px 5px 5px;
-}
+    #container {
+        color: rgb(#FFF);
+        font-size: 14px;
+    }
 
-.form {
-    margin-bottom: 30px;
-    margin-top: 30px;
-    padding: 0px 5px 5px;
-}
-footer {
-    margin-top: 30px;
-    padding: 0px 5px 5px;
-}
-.form, .table, #topnav {
-    width: 955px;
-    margin-left: auto;
-    margin-right: auto;
-}
-a {
-    color: #2f5687;
-    color: rgb(220, 220, 220);
-    transition: text-decoration 0,5s ease-in;
-}
+    a {
+        color: #2f5687;
+        color: rgb(220, 220, 220);
+        transition: text-decoration 0, 5s ease-in;
+    }
 
-a:hover{
-    text-decoration: underline;
-}
+    a:hover {
+        text-decoration: underline;
+    }
 
-table tr:nth-child(2n) {
-    background-color: #FDFDFD;
-}
+    table tr:nth-child(2n) {
+        background-color: #FDFDFD;
+    }
 
-table tr:nth-child(2n+1) {
-    background-color: #91B3FB;
-}
+    table tr:nth-child(2n+1) {
+        background-color: #91B3FB;
+    }
 
-header, #topnav, #container, .table, .form, footer{
-    background-color: #2f5687;
-    border-width: thick;
-    border-style: double;
-    border-color: white;
-    border-image: initial;
+    header, #navigation, #container, .table, #form1, footer {
+        background-color: #2f5687;
+        border-width: thick;
+        border-style: double;
+        border-color: white;
+        border-image: initial;
+    }
 }
